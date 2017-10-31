@@ -1,0 +1,8 @@
+﻿@model SLSLogistics.Models.BreadcrumbModel
+
+<ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="@Url.Action("Index","Home")">Hem</a>
+	</li>
+	<li class="breadcrumb-item active">@Model.ActivePageDisplayName</li>
+</ol>
