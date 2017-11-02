@@ -27,17 +27,23 @@ namespace SLSLogistics.Controllers
 
 		public ActionResult Policy()
 		{
-			return View(GetBreadcrumbModel("Policy"));
+			return View(GetBreadcrumbModel("Vår Policy"));
 		}
 
-		public ActionResult Test()
+		public ActionResult About()
 		{
-			return View(GetBreadcrumbModel("Test"));
+			return View(GetBreadcrumbModel("Om SLS"));
 		}
 
+		public ActionResult Warehouse()
+		{
+			return View(GetBreadcrumbModel("Lager"));
+		}
 		private BreadcrumbModel GetBreadcrumbModel(string displayName)
 		{
 			return new BreadcrumbModel(displayName);
 		}
+
+		
 	}
 }

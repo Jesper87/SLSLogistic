@@ -153,6 +153,7 @@
     <Content Include="assets\images\handshake.png" />
     <Content Include="assets\images\Sea.png" />
     <Content Include="assets\images\SLSLogostics_Logo.jpg" />
+    <Content Include="assets\images\truck.png" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -210,10 +211,13 @@
     <Content Include="Views\Home\News.cshtml" />
     <Content Include="Views\Home\Transports.cshtml" />
     <Content Include="Views\Home\Policy.cshtml" />
-    <Content Include="Views\Home\Test.cshtml" />
-    <Content Include="Views\Home\_FeaturesList.cshtml" />
-    <Content Include="Views\Home\_ContactDetailsBottom.cshtml" />
-    <Content Include="Views\Home\_BreadCrumb.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Partials\_FeaturesList.cshtml" />
+    <Content Include="Views\Partials\_ContactDetailsBottom.cshtml" />
+    <Content Include="Views\Partials\_BreadCrumb.cshtml" />
+    <Content Include="Views\Home\Warehouse.cshtml" />
+    <Content Include="Views\Partials\_Header.cshtml" />
+    <Content Include="Views\Partials\_Navigation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -30,7 +30,9 @@ header {
 .green_color {
 	background-color: rgb(112, 210, 75);
 }
-
+.navbar-brand.text-green {
+	color: rgb(112, 210, 75);
+}
 .contact_listing li {
 	display: inline;
 	border-right: 1px solid black;

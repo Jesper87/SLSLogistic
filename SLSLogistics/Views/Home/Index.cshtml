@@ -2,10 +2,10 @@
 
 <h1 class="my-4">Välkommen till SLSLogistic ( hemsida under uppbyggnad! )</h1>
 <!-- Marketing Icons Section -->
-<div class="row">
+<div class="row mb-4">
 	<div class="col col-sm-3 mb-4">
 		<div class="card h-100">
-			<h4 class="card-header green_color"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Transporter</h4>
+			<h4 class="card-header green_color"><i class="fa fa-truck" aria-hidden="true"></i>Transporter</h4>
 			<div class="card-body">
 				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
 			</div>
@@ -16,7 +16,7 @@
 	</div>
 	<div class="col col-sm-3 mb-4">
 		<div class="card h-100">
-			<h4 class="card-header green_color"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Nyheter</h4>
+			<h4 class="card-header green_color"><i class="fa fa-newspaper-o" aria-hidden="true"></i>Nyheter</h4>
 			<div class="card-body">
 				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos.</p>
 			</div>
@@ -27,7 +27,7 @@
 	</div>
 	<div class="col col-sm-3 mb-4">
 		<div class="card h-100">
-			<h4 class="card-header green_color"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Policy</h4>
+			<h4 class="card-header green_color"><i class="fa fa-check-circle-o" aria-hidden="true"></i>Policy</h4>
 			<div class="card-body">
 				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
 			</div>
@@ -38,12 +38,12 @@
 	</div>
 	<div class="col col-sm-3 mb-4">
 		<div class="card h-100">
-			<h4 class="card-header green_color"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Test</h4>
+			<h4 class="card-header green_color"><i class="fa fa-question-circle-o" aria-hidden="true"></i>Om SLS</h4>
 			<div class="card-body">
 				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
 			</div>
 			<div class="card-footer">
-				<a href="@Url.Action("Test","Home")" class="btn btn-secondary green_color text-dark">Läs mer</a>
+				<a href="@Url.Action("About","Home")" class="btn btn-secondary green_color text-dark">Läs mer</a>
 			</div>
 		</div>
 	</div>
@@ -51,7 +51,6 @@
 </div>
 
 @{
-	Html.RenderPartial("_FeaturesList");
+	Html.RenderPartial("~/Views/Partials/_FeaturesList.cshtml");
 	<hr>
-	Html.RenderPartial("_ContactDetailsBottom");
-}
+	Html.RenderPartial("~/Views/Partials/_ContactDetailsBottom.cshtml");}
